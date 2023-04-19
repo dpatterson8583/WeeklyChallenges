@@ -8,19 +8,23 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\amori\\.nuget\\packages\\": {}
+    "C:\\Users\\dpatt\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\amori\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+      "projectUniqueName": "C:\\Users\\dpatt\\Documents\\GitHub\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
       "projectName": "ChallengesWithTestsMark8",
-      "projectPath": "C:\\Users\\amori\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
-      "packagesPath": "C:\\Users\\amori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\amori\\Desktop\\Repos\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
+      "projectPath": "C:\\Users\\dpatt\\Documents\\GitHub\\WeeklyChallenges\\ChallengesWithTestsMark8\\ChallengesWithTestsMark8.csproj",
+      "packagesPath": "C:\\Users\\dpatt\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\dpatt\\Documents\\GitHub\\WeeklyChallenges\\ChallengesWithTestsMark8\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\amori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\dpatt\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -51,7 +55,8 @@
           "net47",
           "net471",
           "net472",
-          "net48"
+          "net48",
+          "net481"
         ],
         "assetTargetFallback": true,
         "warn": true,
@@ -60,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
       }
     }
   }
