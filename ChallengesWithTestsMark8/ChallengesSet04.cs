@@ -9,7 +9,16 @@ namespace ChallengesWithTestsMark8
     {
         public int AddEvenSubtractOdd(int[] numbers)
         {
-            throw new NotImplementedException();
+            int Total = 0;
+            foreach (int n in numbers) 
+            { 
+            if (n % 2 == 0)
+                { Total += n; }
+            else 
+                { Total -= n; }
+
+            }
+            return Total;
         }
 
         public int GetLengthOfShortestString(string str1, string str2, string str3, string str4)
@@ -69,16 +78,45 @@ namespace ChallengesWithTestsMark8
 
         public double AverageEvens(int[] numbers)
         {
-            //return numbers.Average();
+            double  Total = 0;
+            double  CountEven = 0;
+            double res = 0.0;
+
+            if (numbers is null) return 0;
+
+            foreach(int n in numbers)
+            {
+                if(n % 2 == 0)
+                {
+                    Total += n;
+                    CountEven++;
+                }
+            }
+
+            if(CountEven>0)
+            {
+                res = Total / CountEven;
+            }
+            else
+            {
+                res = 0;
+            }
+           
+
+            return res;
         }
 
         public int Factorial(int number)
         {
             var fact = 1;
+            if (number < 0) return 0;                
+            if (number == 0) return 1;
+
             for(int i = 1; i <= number; i++)
             {
                 fact *= i;
             }
+
             return fact;
         }
     }
