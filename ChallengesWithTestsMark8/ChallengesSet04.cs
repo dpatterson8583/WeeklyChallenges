@@ -109,9 +109,11 @@ namespace ChallengesWithTestsMark8
         public int Factorial(int number)
         {
             var fact = 1;
-            if (number < 0) return 0;                
-            if (number == 0) return 1;
-
+            if (number <=1)
+            {
+                throw new ArgumentOutOfRangeException(number.ToString());
+            }
+            
             for(int i = 1; i <= number; i++)
             {
                 fact *= i;
